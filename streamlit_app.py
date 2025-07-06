@@ -289,7 +289,6 @@ elif st.session_state.selected_section == 3:
     # Only show ads if button was clicked
     if st.session_state.ad_generation:
         import requests
-        from huggingface_hub import InferenceClient
         import random
         import time
         import uuid
@@ -300,17 +299,16 @@ elif st.session_state.selected_section == 3:
         # API Configuration - using Streamlit secrets
         try:
             GROQ_API_KEY = st.secrets["api_keys"]["GROQ_API_KEY"]
-            HF_TOKEN = st.secrets["api_keys"]["HF_TOKEN"]
         except KeyError:
             st.error("⚠️ API keys not found. Please configure your secrets in `.streamlit/secrets.toml`")
             st.info("Add your API keys to `.streamlit/secrets.toml` file with the following format:")
             st.code("""
 [api_keys]
 GROQ_API_KEY = "your_groq_api_key_here"
-HF_TOKEN = "your_hugging_face_token_here"
+CLOUDFLARE_API_KEY = "your_cloudflare_api_key_here"
+CLOUDFLARE_ACCOUNT_ID = "your_cloudflare_account_id_here"
             """)
             GROQ_API_KEY = None
-            HF_TOKEN = None
         
         # Ad creative templates
         ad_headline = "Elevate Your Workspace, Not Your Carbon Footprint"
