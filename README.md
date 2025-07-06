@@ -93,6 +93,6 @@ marketing_campaign.csv → run_clustering.py → marketing_campaign_with_cluster
 
 Built for the Epsilon Hackathon.
 
-Data: [UCI Marketing Campaign Dataset](https://archive.ics.uci.edu/ml/datasets/00352)
+Data: [Marketing Campaign Dataset](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 AI: Groq, Cloudflare Workers AI
