@@ -19,7 +19,7 @@ st.markdown(
     <b>Quick Start Guide</b><br>
     <ul style='margin-bottom:0;'>
       <li><b>1. Explore Segments:</b> Use the buttons below to navigate between customer segmentation, niche analysis, ad generation, and channel strategy.</li>
-      <li><b>2. Niche Segment:</b> <span title='A small, unique group of customers identified by clustering.' style='cursor:help;'>Niche Segment <sup>?</sup></span> is the smallest cluster, ideal for targeted campaigns.</li>
+      <li><b>2. Niche Segment:</b> <span title='A small, unique group of customers identified by clustering.' style='cursor:help;'>Niche Segment</span> is the smallest cluster, ideal for targeted campaigns.</li>
       <li><b>3. Generate Campaigns:</b> In the Ad Campaign section, click <b>Generate Ads</b> to create AI-powered ads and images for your niche audience.</li>
       <li><b>4. Optimize Channels:</b> In Channel Strategy, click <b>Optimize Channel Strategy</b> to get recommended marketing channels for your niche segment.</li>
       <li><b>5. Reset:</b> Click <b>Reset App</b> below to clear selections and start over.</li>
