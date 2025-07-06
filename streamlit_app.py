@@ -10,7 +10,7 @@ import time
 import base64
 
 # --- Customer Segmentation Dashboard ---
-st.title("Niche Category Marketing Campaign")
+st.title("Customer Segmentation and Advertisement Generation")
 
 # --- How to Use / Quick Start ---
 st.markdown(
